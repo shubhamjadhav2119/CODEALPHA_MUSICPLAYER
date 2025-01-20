@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: url(images/background.jpg) no-repeat center center/cover;
+  color: #fff;
+}
+ 
+.music-player {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+  .track-info p {
+    margin: 5px 0;
+  }
+  
+  .controls button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    background: #555;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background: #777;
+  }
+  
+  .progress-bar input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .volume-control {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .volume-control label {
+    margin-right: 10px;
+  }
+  
+  .volume-control input[type="range"] {
+    width: 150px;
+  }
+  
+  
