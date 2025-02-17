@@ -1,4 +1,4 @@
-# MUSICPLAYER
+# MUSIC PLAYER
 
 This project is a web-based music player built using a three-layer architecture:
 
